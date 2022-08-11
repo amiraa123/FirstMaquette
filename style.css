@@ -1,3 +1,416 @@
-h1{
-    color: red;
+
+  @media screen and (max-width : 909px){
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0 ;
+}  
+
+
+  }
+  .masthead {
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+  }
+
+#section_one h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40pt;
+    font-style: normal;
+    font-weight: 100;
+    
+   
+  }
+
+
+  #section_one p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+  }
+
+  #section_one img{
+    position: relative;
+    bottom: -30%;
+  }
+  #section_one a{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.714;
+    text-align: left;
+  }
+  @media screen and (max-width : 1300px){
+    .picture{
+      position: relative;
+      bottom: 90px;
+    }
+  }
+  
+  p ,a {
+    margin: auto;
+  } 
+
+  @media screen and (max-width : 767px){
+    .iphone{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1500px){
+    .iphone{
+        display: none;
+    }
+  }
+  
+  
+  #section_two h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35pt;
+
+  }
+  #section_two p {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(149, 149, 149);
+    font-size: 14px;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+    line-height: 1.714;
+    position: relative;
+    top: 10%;
+    
+  }
+  #section_three{
+    height: auto;
+  }
+
+  .card{
+    border: none;
+  }
+  .card1 {
+    background-color: #f5989d;
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+    
+  }
+ 
+  .card2{
+    background-color: #615f7d;
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+  }
+  .card3{
+    background-image:url(images/card3.png);
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card4{
+  background-color:#bd8cbf ;
+  color: white;
+  padding: 20px 20px ;
+  height: 100%;
+  }
+  .card5{
+    background-image: url(images/card5.png);
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+  }
+  .card6{
+    background-color: #82ca9c;
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+  }
+
+  .card7{
+    background-image: url(images/card7.png);
+    color: white;
+    padding: 20px 20px ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #section_three p {
+        font-size: 13px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.846;
+      position: relative;
+      top: 10%;
+    }
+  #section_three a{
+   
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 1.714;
+      text-align: left;
+      position: relative;
+      top: 10%; 
+    }
+    #section_three h2{
+    
+        font-size: 30px;
+        font-family: "Open Sans";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+    }
+
+    #section_four{
+      text-align: justify;
+     
+  
+    }
+
+    
+  #section_four h2{
+    font-size: 35px;
+    font-family: "Open Sans";
+    color: rgb(34, 38, 38);
+    line-height: 0.686;
+  
+   }
+    #section_four h3{
+   
+        font-size: 13px;
+        font-family: "Open Sans";
+        color: rgb(103, 103, 109);
+        line-height: 2.846;
+        font-weight: bold;
+
+    }
+     #section_four p{
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: rgb(149, 149, 149);
+      line-height: 1.714;
+    }
+
+    #section_five{
+      background-image: url(images/bg\ section5.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+      height: 868px;
+      padding-top: 300px;
+  
+    }
+    #section_five h2{
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 60px;
+      line-height: 1.2;
+      text-align: left;
+   
+    }
+
+    #section_five p{
+      font-size: 13px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.846;
+      text-align: left;
+      position: relative;
+      top: 150%;
+    }
+    
+    #section_five a{
+      font-size: 13px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      line-height: 1.846;
+      text-align: left;
+      position: relative;
+      top: 150%;
+    }
+    .power{
+      width: 400px;
+      margin-top: 5%;
+    
+    }
+
+
+    #section_six{
+      text-align: justify;
+      background-color: #82ca9c;
+      padding-top: 100px;
+      height: 500px;
+      margin-top: -5%;
+    }
+   
+      @media screen and (max-width : 992px){
+          #section_six{
+              height: 700px;
+          }
+        
+          
+      }
+         
+    
+  #section_six h2{
+    font-size: 35px;
+    font-family: "Open Sans";
+    color: white;
+    line-height: 0.686;
+  
+   }
+    #section_six h3{
+      
+        font-size: 13px;
+        font-family: "Open Sans";
+        color: white;
+        line-height: 2.846;
+        font-weight: bold;
+
+    }
+     #section_six p{
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: white;
+      line-height: 1.714;
+    }
+
+    #section_seven{
+      text-align: justify;
+      width: 900px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+
+    }
+
+    span {
+      display: inline-block;
+      border: white solid 1px;
+      color: white;
+      font-family: 'Open Sans ', sans-serif;
+      font-size: 8pt;
+      border-radius: 5px;
+      background-color: #bd8cbf;
+    }
+    
+    
+    
+    .custom-card{
+      transition: all ease .5s;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  .custom-card:hover{
+    background: white;
+    transform: scale(1.1);
+    box-shadow: -1px 3px 10px 0px ; 
+   
+  }
+  .btn{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }    
+
+
+  footer{
+    background-color: #192431;
+    height:auto;
+  }
+ 
+  footer h4{
+    color: white;
+    font-size: 13px;
+      font-family: "Open Sans";
+      line-height: 1.846;
+      text-align: left;
+    
+  }
+  footer p{
+    color: white;
+    font-size: 13px;
+      font-family: "Open Sans";
+      line-height: 1.846;
+      text-align: left;
+    
+  }
+
+  .text1{
+    position: relative;
+    top: 10px;
+  }
+  .email_bar {
+    height: 50px;
+    display: flex;
+    border: solid 1px white;
+    border-radius: 2px;
+    margin-top: 20px;
+  }
+  
+  .email_bar input {
+    border: 0px;
+    width: calc(100% - 50px);
+  }
+  
+  .email_bar .btn_envoyer {
+    border: 0px;
+    width: 50px;
+    background-color: #77c1ab;
+    color: white;
+    background-image: url(images/Shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .email_bar .btn_envoyer:hover {
+    font-size: 1.2rem;
+  }
+  .below_text{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(149, 149, 149);
+    line-height: 1.714;
+    position: relative;
+    top: 10px;
+  }
+  
+.row_two {
+  justify-content: space-between;
+  width: 50%;
 }
+
+.row_two p {
+  position: relative;
+  bottom: 60px;
+
+}
+
+.row_two li {
+ position: relative;
+ bottom: 50px;
+}
+    
+@media screen and (max-width : 992px){
+  .row_two p{
+    position: relative;
+    bottom: 55px;
+   
+  }
+}
+    
+
+  
